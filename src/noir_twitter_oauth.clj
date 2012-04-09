@@ -18,7 +18,7 @@
                                                *app-consumer-secret*
                                                "http://twitter.com/oauth/request_token"
                                                "http://twitter.com/oauth/access_token"
-                                               "http://twitter.com/oauth/authorize"
+                                               "http://api.twitter.com/oauth/authenticate"
                                                :hmac-sha1))
 
 (def req-token (oauth/request-token *consumer* redirect-uri))
